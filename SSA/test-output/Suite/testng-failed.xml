@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="firefoxTestcase(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="ssaapp.CrossBrowser">
+        <methods>
+          <include name="verifypageTitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ssaapp.CrossBrowser -->
+    </classes>
+  </test> <!-- firefoxTestcase(failed) -->
+</suite> <!-- Failed suite [Suite] -->
